@@ -1,0 +1,43 @@
+<html lang='en'>
+
+	<head>
+		<meta charset='UTF-8' />
+		<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+		<link rel='stylesheet' href='/css/movie-page.css' />
+		<link rel='stylesheet' href='/css/chat.css' />
+		<link
+			href='https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap'
+			rel='stylesheet'
+		/>
+		<link
+			rel='stylesheet'
+			href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css'
+		/>
+		<link
+			rel='stylesheet'
+			href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
+		/>
+		<title>Marvel Cinematic Universe</title>
+	</head>
+
+	<body>
+		
+		<div class='container' style="background: linear-gradient(to left, rgba(0,0,0,0), #151515), url('/images/{{films.background}}'); background-repeat: no-repeat;   background-size: cover;">
+			<div
+				class='content-container'>
+				<div class='featured-content'>
+					<img
+						class='featured-title'
+						src='/images/{{films.logo}}'
+						alt=''
+					/>
+					<p class='featured-desc'>{{films.overview}}
+					</p>
+					<button class='featured-button'>BOOKMARK</button>
+				</div>
+		</div>
+		
+	</body>
+
+</html>
